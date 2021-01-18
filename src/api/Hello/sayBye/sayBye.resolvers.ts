@@ -1,9 +1,7 @@
 const resolvers = {
     Query: {
-        sayBye: () => {
-            return "say Bye"
-        }
+      sayBye: () => "Hey bye how are ya"
     }
-};
-
-export default resolvers;
+  };
+  
+  export default resolvers;
